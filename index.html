@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Powered To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI-Powered To-Do List</h1>
+      <p>Your smart task manager 🧠</p>
+      <button id="themeToggle">Toggle Dark Mode</button>
+    </header>
+    <main>
+      <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Add a new task...">
+        <select id="categorySelect">
+          <option value="General">General</option>
+          <option value="Work">Work</option>
+          <option value="Personal">Personal</option>
+        </select>
+        <button id="addBtn">+</button>
+      </div>
+      <input type="text" id="searchBar" placeholder="Search tasks...">
+      <ul id="taskList"></ul>
+    </main>
+    <footer>
+      <button id="clearAllBtn">Clear All</button>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
